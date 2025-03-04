@@ -1,0 +1,4 @@
+.Accordion .card-header:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}

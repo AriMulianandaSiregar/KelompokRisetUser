@@ -1,0 +1,57 @@
+.navbarAtas p {
+  font-size: 1.5rem; /* Ukuran default */
+}
+
+.navbarBawah span {
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .navbarAtas p {
+    display: none; /* Pusatkan teks agar lebih rapi */
+  }
+
+  .navbarAtas hr {
+    display: none; /* Pastikan hr juga ikut hilang */
+  }
+
+  .custom-container img {
+    height: 60px;
+    width: auto;
+  }
+
+  .navbarBawah span {
+    /* display: block;
+    position: relative; */
+    /* top: 80px; Sesuaikan jarak dari logo */
+    /* top: 60px;
+    left: -84px; */
+    /* left: 0px;
+    width: 100%;
+    text-align: start; */
+    /* margin-left: 28px; */
+    /* left: 0; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-left: 0px;
+    /* display: block;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; */
+  }
+}
+@media (max-width: 1100px) {
+  .custom-container {
+    width: 100% !important;
+  }
+}
+
+.navbar-toggler {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 32px;
+}

@@ -1,0 +1,34 @@
+/* Animasi untuk kartu dalam carousel */
+.card-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Animasi untuk tombol navigasi carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon {
+  transform: scale(1.2);
+}
+.carousel-control-next:hover .carousel-control-next-icon {
+  transform: scale(1.2);
+}
+
+/* Pastikan layout tetap responsif */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}

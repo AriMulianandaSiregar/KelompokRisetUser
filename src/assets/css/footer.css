@@ -1,0 +1,32 @@
+.footer-top {
+  background-color: #246fc4;
+  color: white;
+}
+.footer-bottom {
+  background-color: #ffac24;
+}
+.social-icons svg {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.social-icons svg:hover {
+  color: #ffd700;
+}
+
+.garis {
+  width: 1px;
+  height: 200px;
+  background-color: #ffac24;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .garis {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 200px; /* Lebar lebih besar (horizontal) */
+    height: 1px; /* Tinggi kecil agar jadi garis horizontal */
+    background-color: #ffac24; /* Pastikan warna muncul */
+    border: none; /* Hapus border default */
+  }
+}

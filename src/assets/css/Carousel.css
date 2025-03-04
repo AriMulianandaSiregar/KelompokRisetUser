@@ -1,0 +1,13 @@
+.carousel-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh; /* Default full height */
+  max-height: 700px; /* Batas tinggi maksimal */
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 50vh; /* Tinggi lebih kecil untuk layar kecil */
+    max-height: 400px;
+  }
+}
